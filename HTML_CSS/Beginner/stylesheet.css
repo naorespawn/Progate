@@ -3,8 +3,6 @@ body{
 }
 li{
     list-style: none;
-    float: left;
-    padding: 33px 20px;
 }
 .header{
     background-color: #f7f2b4;
@@ -15,11 +13,27 @@ li{
     float: left;
     padding: 20px 40px;
 }
+.header-list li{
+    float: left;
+    padding: 33px 20px;
+}
 .main{
     background-color: #bdf7f1;
     height: 600px;
 }
 .footer{
-    background-color: #ceccf3;
-    height: 270px;
+    background-color: #2f5167;
+    height: 120px;
+    color: #fff;
+    padding: 40px;
+}
+.footer-logo{
+    font-size: 32px;
+    float: left;
+}
+.footer-list{
+    float:right;
+}
+.footer-list li{
+    padding-bottom: 20px;
 }
