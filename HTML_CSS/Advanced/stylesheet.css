@@ -11,8 +11,13 @@
     text-decoration: none;
   }
   
+
+  .clear{
+      clear: left;
+  }
   .container {
     width: 100%;
+    max-width: 1170px;
     padding: 0 15px;
     margin: 0 auto;
   }
@@ -92,12 +97,10 @@
   .header-left {
     float: left;
   }
-  
   .header-right {
     float: right;
     margin-right: -25px;
   }
-  
   .header-right a {
     line-height: 65px;
     padding: 0 25px;
@@ -106,13 +109,18 @@
     float: left;
     transition: all 0.5s;
   }
-  
   .header-right a:hover {
     background-color: rgba(255, 255, 255, 0.3);
   }
+  .menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+  }
   
   .lesson-wrapper {
-    height: 580px;
     padding-bottom: 80px;
     padding-left: 5%;
     padding-right: 5%;

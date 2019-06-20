@@ -1,8 +1,46 @@
 /* タブレット向けレイアウト */
 @media (max-width: 1000px) {
+    .top-wrapper h1{
+        font-size: 32px;
+    }
+    .top-wrapper h2{
+        font-size: 20px;
+    }
     .lesson {
       width: 50%;
       margin-bottom: 50px;
     }
     
   }
+
+/* スマートフォン向けレイアウト */
+@media (max-width: 670px) {
+    .btn {
+        width: 100%;
+    }
+    .header-right {
+        display: none;
+    }
+    .menu-icon {
+        display: block;
+    }
+    .top-wrapper {
+        text-align: left;
+        padding-top: 130px;
+    }
+    .top-wrapper h1{
+        font-size: 24px;
+    }
+    .top-wrapper p{
+        font-size: 14px;
+    }
+    .facebook {
+        margin-bottom: 10px;
+    }
+    .lesson {
+        width: 100%;
+    }
+    footer {
+        text-align: center;
+    }
+}
