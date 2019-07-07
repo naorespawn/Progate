@@ -1,4 +1,4 @@
-.btn{
+.btn {
     display: inline-block;
     cursor: pointer;
     padding: 12px 80px;
@@ -9,8 +9,8 @@
     font-size: 12px;
   }
   
-  .btn:active{
+  .btn:active {
     position: relative;
     top: 5px;
     box-shadow: none;
-  }
+  }1    
