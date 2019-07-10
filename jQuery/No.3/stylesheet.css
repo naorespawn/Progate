@@ -1,84 +1,114 @@
 body {
+    margin: 0;
     font-family: "Hiragino Maru Gothic ProN", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #888;
+    -webkit-font-smoothing: antialiased;
   }
   
   ul {
-    list-style: none;
-  }
-  
-  .slide-wrapper {
-    text-align: center;
-    width: 1000px;
-    margin: 0 auto;
-    color: #5e6f84;
-    padding: 60px 0;
-  }
-  
-  .slide-title {
-    font-size: 40px;
-    margin-bottom: 30px;
-  }
-  
-  .change-btn-wrapper {
-    width: 500px;
-    margin: 20px auto;
-    font-size: 18px;
-  }
-  
-  .change-btn-wrapper:after {
-    content: "";
-    clear: both;
-    display: block;
-  }
-  
-  .prev-btn {
-    cursor: pointer;
-    float: left;
-    /* 初期状態では非表示にしてください */
-    display: none;
-    
-  }
-  
-  .next-btn {
-    cursor: pointer;
-    float: right;
-  }
-  
-  .slides {
+    margin: 0;
     padding: 0;
   }
   
-  .slide {
-    display: none;
+  li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
   }
   
-  .active {
-    display: block;
+  a {
+    text-decoration: none;
+    color: #323A45;
+    transition: all .3s;
   }
   
-  .slide img {
-    width: 500px;
-    height: auto;
-    border-radius: 5px;
+  a:hover {
+    color: #D0472E;
+    text-decoration: none;
   }
   
-  .index-btn-wrapper {
-    font-size: 16px;
-    margin-top: 20px;
+  h2, h3, h4, h5, h6 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 400;
   }
   
-  .index-btn {
-    display: inline-block;
-    color: #4e90af;
-    background-color: #e0f5ff;
+  h4, h5 {
+    color: #444;
+    font-size: 18px;
+  }
+  
+  h3:before, h3:after{
+    content: "";
+    background-color: #616161;
+    display:inline-block;
     width: 40px;
-    padding: 6px 0;
-    margin: 0 5px;
-    border-radius: 3px;
-    cursor: pointer;
+    height: 1px;
+    margin: 0 2rem;
+    vertical-align: middle;
   }
   
-  .index-btn:hover {
-    color: #fff;
-    background-color: #5cabd0;
+  .container {
+    width: 900px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
   }
+  
+  .section-title {
+    color: #555;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  
+  .section-title h3 {
+    margin: 10px 0;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 36px;
+  }
+  
+  .section-content {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .section-content p {
+    font-size: 22px;
+    color: #337090;
+    margin: 30px;
+  }
+  
+  .section-content a {
+    font-size: 24px;
+    display: block;
+    text-align: right;
+  }
+  
+  .output-wrapper {
+    margin-top: 70px;
+  }
+  
+  .output-inner {
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: 2px dotted;
+    border-radius: 3px;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 22px;
+  }
+  
+  .output-item {
+    margin: 30px;
+  }
+  
+  .output-inner span {
+    color: #2A374A;
+    font-size: 24px;
+  }
+  
