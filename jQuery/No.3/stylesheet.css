@@ -74,7 +74,7 @@ body {
   
   .gray-section {
     background: #f4f4f4;
-    color: white;
+    color: #888;
   }
   /*-------  ここまで共通のCSS  --------*/
   
@@ -115,6 +115,7 @@ body {
     color: #323A45;
     font-weight: 700;
     padding: 10px;
+    text-decoration: none;
   }
   
   .header-menu-right a:hover {
