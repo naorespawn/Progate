@@ -1,7 +1,6 @@
-# requireを使ってmenu.rbを読み込んでください
 require "./menu"
 
-# Menuクラスを継承したFoodクラスをつくってください
 class Food < Menu
-  
-end  
+  # calorieというインスタンス変数を追加してください
+  attr_accessor :calorie
+end
