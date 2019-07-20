@@ -1,11 +1,10 @@
-# requireを用いて、Dateクラスを読み込んでください
 require "date"
 
-# 変数birthdayに、Dateクラスのインスタンスを代入してください
-birthday = Date.new(2000,1,1)
+# 変数todayに、Date.todayの戻り値を代入してください
+today = Date.today
 
-# 変数birthdayをputsしてください
-puts birthday
+# 変数todayをputsしてください
+puts today
 
-# 変数birthdayにsunday?メソッドを用いた結果をputsしてください
-puts birthday.sunday?
+# 変数todayに対してsunday?メソッドを用いた結果をputsしてください
+puts today.sunday?
